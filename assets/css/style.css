@@ -25,6 +25,20 @@ h1 {
   background-color: transparent !important;
 }
 
+#about-image {
+  width: 200px;
+  height: auto;
+  float: left;
+}
+
+#about-me {
+  color: #43A099;
+}
+
+#about-text {
+  
+}
+
 #hamburger {
   margin: auto;
   color: black;
