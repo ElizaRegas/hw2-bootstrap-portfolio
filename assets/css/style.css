@@ -21,22 +21,13 @@ h1 {
 
 .navbar-dark .navbar-toggler {
   color: black !important;
-  border-color: grey;
-}
-
-.navbar-static-top {
-  margin-bottom: 19px;
-  background-color: white;
-}
-
-.a-nav-text {
-  color:#A4A4A4 !important;
+  border-color: black;
+  background-color: transparent !important;
 }
 
 #hamburger {
   margin: auto;
   color: black;
-  background-color: white;
 }
 
 #header-name {
