@@ -1,8 +1,8 @@
 
 body {
-  min-height: 1000px;
   margin: 0em;
   background-image: url("../images/default-background.png");
+  min-height: calc(100vh - 66.78px - 24px);
 }
 
 h1 {
@@ -29,14 +29,24 @@ h1 {
   width: 200px;
   height: auto;
   float: left;
+  padding: 0px 20px 0px 0px;
 }
 
 #about-me {
   color: #43A099;
+  font-size: 3.7vw;
+  padding: 3vw 1vw 0vw 1vw;
 }
 
 #about-text {
-  
+}
+
+footer {
+  text-align: center;
+  color: lightgrey;
+  background-color: #666;
+  padding: 20px 0px 1px 0px;
+  border-top: 5px solid #43A099;
 }
 
 #hamburger {
@@ -48,6 +58,7 @@ h1 {
   background-color: #43A099;
   color:#FCFDFE;
   margin: 0em;
+  font-size: 1.8em;
 }
 
 #header-row {
