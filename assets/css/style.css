@@ -1,39 +1,73 @@
 
 body {
-  min-height: 1000px;
   margin: 0em;
   background-image: url("../images/default-background.png");
+  min-height: calc(100vh - 66.78px - 24px);
 }
 
 h1 {
   font-family: Georgia, "TimesNew Roman", Times, serif;
   font-weight: bold;
   margin: 0em;
-  padding: .75em;
+  padding: .2em .4em;
   font-size: 2em;
   width: fit-content;
 }
 
 .navbar {
   margin: 0em;
-}
-.navbar-static-top {
-  margin-bottom: 19px;
-  background-color: white;
+  background-color: white !important;
 }
 
-.a-nav-text {
-  color:#A4A4A4 !important;
+.navbar-dark .navbar-toggler {
+  color: black !important;
+  border-color: black;
+  background-color: transparent !important;
+}
+
+#about-image {
+  width: 200px;
+  height: auto;
+  float: left;
+  padding: 0px 20px 0px 0px;
+}
+
+#about-me {
+  color: #43A099;
+  font-size: 3.7vw;
+  padding: 3vw 1vw 0vw 1vw;
+}
+
+#about-text {
+}
+
+footer {
+  text-align: center;
+  color: lightgrey;
+  background-color: #666;
+  padding: 20px 0px 1px 0px;
+  border-top: 5px solid #43A099;
+}
+
+#hamburger {
+  margin: auto;
+  color: black;
 }
 
 #header-name {
   background-color: #43A099;
   color:#FCFDFE;
+  margin: 0em;
+  font-size: 1.8em;
+}
+
+#header-row {
+  width: 100%;
 }
 
 #info-section {
   background-color: white;
-  margin: 0;
+  margin: 4em 0em;
 }
 
 #navbar {
@@ -48,16 +82,6 @@ h1 {
   margin: auto;
   padding: .75em;
   color: #FAFAFA;
-}
-
-/* bs3: mobile navbar without js custom */
-#navbar-toggle-cbox:checked ~ .collapse {
-	display: block;
-}
-
-/* the checkbox used only internally; don't display it */
-#navbar-toggle-cbox {
-  display:none
 }
 
 /* ### Hints 
