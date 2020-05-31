@@ -1,8 +1,18 @@
 
 body {
   margin: 0em;
-  background-image: url("../images/default-background.png");
-  min-height: calc(100vh - 66.78px - 24px);
+  background-image: url("../images/gtpfbg.png");
+  background-repeat: repeat;
+  background-size: 1vw;
+  min-height: calc(100vh - 66.78px - 66px) !important;
+}
+
+footer {
+  text-align: center;
+  color: lightgrey;
+  background-color: #666;
+  padding: 20px 0px 1px 0px;
+  border-top: 5px solid #43A099;
 }
 
 h1 {
@@ -38,16 +48,6 @@ h1 {
   padding: 3vw 1vw 0vw 1vw;
 }
 
-#about-text {
-}
-
-footer {
-  text-align: center;
-  color: lightgrey;
-  background-color: #666;
-  padding: 20px 0px 1px 0px;
-  border-top: 5px solid #43A099;
-}
 
 #hamburger {
   margin: auto;
