@@ -57,7 +57,7 @@ h1 {
 
 /* the checkbox used only internally; don't display it */
 #navbar-toggle-cbox {
-  display:none;
+  display:none
 }
 
 /* ### Hints 
