@@ -3,7 +3,7 @@ body {
   margin: 0em;
   background-image: url("../images/gtpfbg.png");
   background-repeat: repeat;
-  background-size: 1vw;
+  background-size: 20%;
   min-height: calc(100vh - 66.78px - 66px) !important;
 }
 
@@ -22,6 +22,12 @@ h1 {
   padding: .2em .4em;
   font-size: 2em;
   width: fit-content;
+}
+
+.btn {
+  border-radius: 0px !important;
+  margin-bottom: 1em;
+  background-color: #43A099;
 }
 
 .navbar {

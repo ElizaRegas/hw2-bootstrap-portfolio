@@ -58,27 +58,48 @@
     </nav>
 
     <main>
+      <!-- contact form -->
       <div class="container">
         <div class="row">
-          <div class="col-8" id="info-section">
+          <div class="col-md-8" id="info-section">
             <h1 id="about-me">Contact</h1>
             <hr />
             <div class="container">
-              <img
-                src="./assets/images/lizPortfolio.jpg"
-                alt="Photo of Eliza Kelley"
-                id="about-image"
-              />
-              <p id="about-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Ratione animi at rerum dolore sed cumque perspiciatis non
-                tempora ipsam consequuntur minus soluta saepe error repellat
-                repellendus quidem nobis, doloremque eligendi! Lorem ipsum,
-                dolor sit amet consectetur adipisicing elit. Provident
-                voluptatem placeat iste quasi non nisi, error quam similique
-                rerum quaerat dolor, beatae autem tempora consectetur, vitae
-                aliquid. Minus, consequuntur delectus.
-              </p>
+              <form>
+                <!-- name input -->
+                <div class="row">
+                  <div class="col">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
             </div>
           </div>
         </div>
