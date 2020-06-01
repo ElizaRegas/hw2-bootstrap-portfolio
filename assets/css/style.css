@@ -4,7 +4,7 @@ body {
   background-image: url("../images/gtpfbg.png");
   background-repeat: repeat;
   background-size: 20%;
-  min-height: calc(100vh - 66.78px - 66px) !important;
+  min-height: calc(100vh - 61.5px - 66px) !important;
 }
 
 footer {
@@ -39,6 +39,11 @@ h1 {
   color: black !important;
   border-color: black;
   background-color: transparent !important;
+}
+.pf-img {
+  width: 350px !important;
+  height: auto;
+  padding-bottom: 4vw !important;
 }
 
 #about-image {
@@ -88,6 +93,14 @@ h1 {
   margin: auto;
   padding: .75em;
   color: #FAFAFA;
+}
+
+#pf1 {
+  padding: 20px 20px 0px 0px;
+}
+
+#pf2 {
+  padding: 20px 20px 0px 0px;
 }
 
 /* ### Hints 
