@@ -103,14 +103,27 @@ h1 {
   color: #FAFAFA;
 }
 
-#pf1 {
-  padding: 20px 20px 0px 0px;
+.pf-img {
+  padding: 20px 10px 0px 10px;
+  width: 350px;
 }
 
-#pf2 {
-  padding: 20px 20px 0px 0px;
+@media screen and (max-width: 767px) and (min-width: 575px) {
+  .pf-img-odd {
+    width: 50% !important;
+    float: left !important;
+  }
+  .pf-img-even {
+    width: 50% !important;
+    float: right !important;
+  }
 }
 
+@media screen and (max-width: 576px) {
+  .pf-img {
+    width: 100% !important;
+  }
+}
 
 /* ### Hints 
 
