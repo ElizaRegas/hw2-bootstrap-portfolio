@@ -13,9 +13,8 @@ I built it using HTML, CSS, and Bootstrap. I then adjusted styling to match the 
 1. Clone the repository from GitHub.
 2. Open the index.html file in a default browser.
 
-Or, you can click on this link to see the deployed site:
-
-https://elizaregas.github.io/hw2-bootstrap-portfolio/
+Or, you can click here to see the 
+[deployed portfolio site](https://github.com/ElizaRegas/hw2-bootstrap-portfolio)
 
 ## Usage 
 
@@ -32,8 +31,6 @@ My Portfolio
 Contact Me
 
 ![Contact](./assets/images/contact.png)
-
-[Deployed portfolio site](https://github.com/ElizaRegas/hw2-bootstrap-portfolio)
 
 ## Credits
 
