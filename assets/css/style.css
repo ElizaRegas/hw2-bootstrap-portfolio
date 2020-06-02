@@ -8,14 +8,6 @@ body {
   min-height: calc(100vh - 57.03px - 66px) !important;
 }
 
-footer {
-  text-align: center;
-  color: lightgrey;
-  background-color: #666;
-  padding: 20px 0px 1px 0px;
-  border-top: 5px solid #43A099;
-}
-
 h1, h2 {
   font-family: Georgia, "TimesNew Roman", Times, serif;
   font-weight: bold;
@@ -52,6 +44,10 @@ h1, h2 {
   background-color: transparent !important;
 }
 
+.navbar-text {
+  text-align: center;
+}
+
 .pf-img {
   width: 350px !important;
   height: auto;
@@ -64,6 +60,17 @@ h1, h2 {
 #about-me {
   color: #43A099;
   padding: 3vw 1vw 0vw 1vw;
+}
+
+#footer {
+  color: lightgrey;
+  background-color: #666 !important;
+  padding: 20px 0px 1px 0px !important;
+  border-top: 5px solid #43A099;
+}
+
+#footer-text {
+  margin: auto;
 }
 
 #hamburger {
@@ -104,14 +111,6 @@ h1, h2 {
   margin: auto;
   padding: .75em;
   color: #FAFAFA;
-}
-
-#sticky-footer-about {
-  height: 90px;
-}
-
-#sticky-footer-contact {
-  height: 150px;
 }
 
 /* media query styling */

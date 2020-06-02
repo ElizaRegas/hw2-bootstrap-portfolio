@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eliza Regas</title>
+    <!-- bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- local stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
@@ -100,11 +104,12 @@
           </div>
         </div>
       </div>
-      <!-- empty div to create sticky footer -->
-      <div id="sticky-footer-about"></div>
-      <!-- actual footer -->
-      <footer>
-        <p>copyright &copy; 2020 Eliza Regas</p>
+
+      <!-- sticky footer -->
+      <footer class="navbar navbar-default navbar-fixed-bottom" id="footer">
+        <div class="container">
+          <p class="navbar-text" id="footer-text">copyright &copy; 2020 Eliza Regas</p>
+          <i class="fa fa-github" aria-hidden="true"></i>
       </footer>
     </main>
 
