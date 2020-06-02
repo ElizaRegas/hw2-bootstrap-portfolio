@@ -50,7 +50,7 @@ h1, h2 {
   padding: 0rem 1rem !important;
 }
 
-#about-image {
+.about-image {
   width: 200px;
   height: auto;
   float: left;
