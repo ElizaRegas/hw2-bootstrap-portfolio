@@ -15,7 +15,7 @@ footer {
   border-top: 5px solid #43A099;
 }
 
-h1 {
+h1, h2 {
   font-family: Georgia, "TimesNew Roman", Times, serif;
   font-weight: bold;
   margin: 0em;
@@ -59,7 +59,6 @@ h1 {
 
 #about-me {
   color: #43A099;
-  font-size: 3.7vw;
   padding: 3vw 1vw 0vw 1vw;
 }
 
@@ -103,6 +102,13 @@ h1 {
   color: #FAFAFA;
 }
 
+#sticky-footer {
+  height: 150px;
+}
+
+#sticky-footer-about {
+  height: 90px;
+}
 .pf-img {
   padding: 20px 10px 0px 10px;
   width: 350px;
