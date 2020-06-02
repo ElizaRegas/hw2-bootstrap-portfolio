@@ -105,9 +105,10 @@ h1 {
 
 .pf-img {
   padding: 20px 10px 0px 10px;
+  width: 350px;
 }
 
-@media screen and (max-width: 767px) and (min-width: 660px) {
+@media screen and (max-width: 767px) and (min-width: 575px) {
   .pf-img-odd {
     width: 50% !important;
     float: left !important;
@@ -115,6 +116,12 @@ h1 {
   .pf-img-even {
     width: 50% !important;
     float: right !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .pf-img {
+    width: 100% !important;
   }
 }
 
