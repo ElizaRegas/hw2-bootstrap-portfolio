@@ -111,6 +111,12 @@ h1 {
   padding: 20px 20px 0px 0px;
 }
 
+@media screen and (max-width: 767px) {
+  #pf1 #pf3 #pf5 {
+    width: 20%;
+    float: left;
+  }
+}
 
 /* ### Hints 
 
