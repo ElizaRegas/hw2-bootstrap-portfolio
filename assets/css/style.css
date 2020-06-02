@@ -4,7 +4,7 @@ body {
   background-image: url("../images/gtpfbg.png");
   background-repeat: repeat;
   background-size: 20%;
-  min-height: calc(100vh - 61.5px - 600px) !important;
+  min-height: calc(100vh - 57.03px - 66px) !important;
 }
 
 footer {
@@ -111,15 +111,9 @@ h1 {
   padding: 20px 20px 0px 0px;
 }
 
-@media screen and (min-width: 800px) {
-  #info-right-margin {
-    margin-right: 30%;
-  }
-}
 
 /* ### Hints 
-* Use Bootstrap's grid system (containers, rows, 
-and columns). 
+
 
 * On an `xs` screen, content should take up the 
 entire screen. On `sm` and larger screens, you 
