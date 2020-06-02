@@ -103,18 +103,18 @@ h1 {
   color: #FAFAFA;
 }
 
-#pf1 {
-  padding: 20px 20px 0px 0px;
+.pf-img {
+  padding: 20px 10px 0px 10px;
 }
 
-#pf2 {
-  padding: 20px 20px 0px 0px;
-}
-
-@media screen and (max-width: 767px) {
-  #pf1 #pf3 #pf5 {
-    width: 20%;
-    float: left;
+@media screen and (max-width: 767px) and (min-width: 660px) {
+  .pf-img-odd {
+    width: 50% !important;
+    float: left !important;
+  }
+  .pf-img-even {
+    width: 50% !important;
+    float: right !important;
   }
 }
 
