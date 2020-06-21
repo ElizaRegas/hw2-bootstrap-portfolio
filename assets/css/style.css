@@ -32,6 +32,15 @@ h1, h2 {
   background-color: #43A099;
 }
 
+.fa {
+  padding: 1vw;
+  color: white;
+}
+
+.fa:hover {
+  color: black;
+}
+
 .navbar {
   margin: 0em;
   background-color: white !important;
@@ -55,6 +64,16 @@ h1, h2 {
   padding-bottom: 4vw !important;
 }
 
+.portfolio-container {
+
+}
+
+.portfolio-link-titles {
+  color: black;
+  font-family: inherit;
+  padding: 0vw 0vw 0vw 1vw;
+}
+
 /* ids */
 
 #about-me {
@@ -70,7 +89,7 @@ h1, h2 {
 }
 
 #footer-text {
-  margin: auto;
+  margin: -1vw 0vw 0vw 15vw;
 }
 
 #hamburger {

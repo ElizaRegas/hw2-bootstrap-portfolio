@@ -10,13 +10,17 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
     <!-- bootstrap nav bar -->
     <nav class="navbar navbar-expand-xl navbar-light">
-      <!-- header name -->
       <!-- header name -->
       <div class="container">
         <div class="row" id="header-row">
@@ -67,49 +71,100 @@
             <h1 id="about-me">Portfolio</h1>
             <hr />
             <!-- portfolio item 1 -->
-            <div class="container">
-              <img
-                class="pf-img pf-img-odd about-image"
-                id="pf1"
-                src="./assets/images/comingsoon.png"
-                alt="coming soon"
-              />
-            </div>
-            <!-- portfolio item 2 -->
-            <div class="container">
-              <img
-                class="pf-img pf-img-odd about-image"
-                id="pf2"
-                src="./assets/images/comingsoon.png"
-                alt="coming soon"
-              />
-            </div>
-            <!-- portfolio item 3 -->
-            <div class="container">
-              <img
-                class="pf-img pf-img-odd about-image"
-                id="pf3"
-                src="./assets/images/comingsoon.png"
-                alt="coming soon"
-              />
-            </div>
-            <!-- portfolio item 4 -->
-            <div class="container">
-              <img
-                class="pf-img pf-img-odd about-image"
-                id="pf4"
-                src="./assets/images/comingsoon.png"
-                alt="coming soon"
-              />
-            </div>
-            <!-- portfolio item 5 -->
-            <div class="container">
-              <img
-                class="pf-img pf-img-odd about-image"
-                id="pf5"
-                src="./assets/images/comingsoon.png"
-                alt="coming soon"
-              />
+            <div class="container portfolio-container">
+              <div class="row">
+                <div class="col-xs-6">
+                  <h2 class="portfolio-title">
+                    Javascript Quiz
+                  </h2>
+                  <div>
+                    <a href="https://elizaregas.github.io/hw4-javascript-quiz/">
+                      <h6 class="portfolio-link-titles">Website</h6>
+                    </a>
+                    <a href="https://github.com/ElizaRegas/hw4-javascript-quiz">
+                      <h6 class="portfolio-link-titles">Repository</h6>
+                    </a>
+                  </div>
+                  <img
+                    class="pf-img pf-img-odd about-image"
+                    id="pf1"
+                    src="./assets/images/JSQuizScreenShot.png"
+                    alt="javascript quiz picture"
+                  />
+                </div>
+                <!-- portfolio item 2 -->
+                <div class="col-xs-6">
+                  <h2 class="portfolio-title">
+                    Weather Dashboard
+                  </h2>
+                  <div>
+                    <a
+                      href="https://elizaregas.github.io/hw6-weather-dashboard/"
+                    >
+                      <h6 class="portfolio-link-titles">Website</h6>
+                    </a>
+                    <a
+                      href="https://github.com/ElizaRegas/hw6-weather-dashboard"
+                    >
+                      <h6 class="portfolio-link-titles">Repository</h6>
+                    </a>
+                  </div>
+                  <img
+                    class="pf-img pf-img-odd about-image"
+                    id="pf2"
+                    src="./assets/images/Weatherpic.png"
+                    alt="weather dashboard picture"
+                  />
+                </div>
+              </div>
+              <!-- portfolio item 3 -->
+              <div class="portfolio-container">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h2 class="portfolio-title">
+                      Good Spirits
+                    </h2>
+                    <div>
+                      <a href="https://elizaregas.github.io/Good-Spirits/">
+                        <h6 class="portfolio-link-titles">Website</h6>
+                      </a>
+                      <a href="https://github.com/ElizaRegas/Good-Spirits">
+                        <h6 class="portfolio-link-titles">Repository</h6>
+                      </a>
+                    </div>
+                    <img
+                      class="pf-img pf-img-odd about-image"
+                      id="pf1"
+                      src="./assets/images/GoodSpirits.png"
+                      alt="Good Spirits Website"
+                    />
+                  </div>
+                  <!-- portfolio item 4 -->
+                  <div class="col-xs-6">
+                    <h2 class="portfolio-title">
+                      <!-- Weather Dashboard -->
+                    </h2>
+                    <div>
+                      <!-- <a
+                        href="https://elizaregas.github.io/hw6-weather-dashboard/"
+                      >
+                        <h6 class="portfolio-link-titles">Website</h6>
+                      </a>
+                      <a
+                        href="https://github.com/ElizaRegas/hw6-weather-dashboard"
+                      >
+                        <h6 class="portfolio-link-titles">Repository</h6>
+                      </a> -->
+                    </div>
+                    <img
+                      class="pf-img pf-img-odd about-image"
+                      id="pf2"
+                      src="./assets/images/comingsoon.png"
+                      alt="coming soon"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -118,7 +173,16 @@
       <!-- sticky footer -->
       <footer class="navbar navbar-default navbar-fixed-bottom" id="footer">
         <div class="container">
-          <p class="navbar-text" id="footer-text">copyright &copy; 2020 Eliza Regas</p>
+          <p class="navbar-text" id="footer-text">
+            copyright &copy; 2020 Eliza Regas elizaregas@gmail.com (770)312-4241
+            <a href="https://github.com/ElizaRegas">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/elizaregas/">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a class="fa" href="./assets/images/ElizaRegasResume.pdf">Resume</a>
+          </p>
         </div>
       </footer>
     </main>
