@@ -26,7 +26,7 @@ About Me
 
 My Portfolio
 
-![Portfolio](./assets/images/portfolio.png)
+![Portfolio](./assets/images/portfolioscreenshot.png)
 
 Contact Me
 
